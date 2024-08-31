@@ -5,6 +5,8 @@
  export default function ProduitDetail(params) {
     const [detail, setDetail] = useState(null)
     const { id } = useParams()
+    console.log(id);
+    
     useEffect(() => {
       fetch(`/api/vetements/${id}`)
         .then((response) => response.json())
