@@ -8,7 +8,7 @@ createServer({
   seeds(server) {
     server.create('vetement', {
       id: 1,
-      nom: 'Sac à dos',
+      nom: 'Sac à main',
       imageUrl: 'https://s.alicdn.com/@sc04/kf/H6d47aaaa5100424abf6656f1176688acH.jpg_64x64.jpg', // Chemin relatif
       description: 'Ce sac à dos est parfait pour les randonnées et les voyages. Il offre un grand espace de rangement et un confort exceptionnel pour transporter vos affaires.',
       prix: 59.99,
@@ -17,11 +17,11 @@ createServer({
     
     server.create('vetement', {
       id: 2,
-      nom: 'Baskets',
+      nom: 'Sac à main',
       imageUrl: 'https://s.alicdn.com/@sc04/kf/H8227a8a61bf948539ba87f38b83b60b17.jpg_64x64.jpg', // Chemin relatif
       description: 'Ces baskets légères et respirantes sont idéales pour les activités sportives. Elles offrent un excellent soutien et un style moderne qui vous accompagnera partout.',
       prix: 79.99,
-      categorie: 'chaussure',
+      categorie: 'sac',
     });
     server.create('vetement', {
       id: 3,
