@@ -31,9 +31,9 @@ export default function ProduitDetail() {
       <Link to='..' relative="path" className="text-blue-500 hover:underline">
         Back Up
       </Link>
-      <div className="flex gap-2">
+      <div className="flex gap-2 m-4 ">
         <img
-          className="object-cover w-1/4"
+          className="object-cover w-1/4  rounded-md"
           src={detail.imageUrl}
           alt={detail.nom}
         />
